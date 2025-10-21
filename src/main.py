@@ -1,6 +1,7 @@
 """
 AI Banking Microservice - Main Application
 """
+import utils.session
 import uvicorn
 from datetime import datetime
 from fastapi import FastAPI, Request, HTTPException
